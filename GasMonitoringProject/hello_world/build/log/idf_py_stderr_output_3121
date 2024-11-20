@@ -1,0 +1,687 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbserial-0001 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+[0m
+[0;33m--- 0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817f6: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x40089439: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090985: abort at /Users/joaquinsalas/esp/esp-idf/components/newlib/abort.c:38
+0x4008942f: _esp_error_check_failed at /Users/joaquinsalas/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400df1ad: esp_netif_create_default_wifi_sta at /Users/joaquinsalas/esp/esp-idf/components/esp_wifi/src/wifi_default.c:391 (discriminator 1)
+0x400d656f: wifi_init_sta at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:64
+0x400d66fe: app_main at /Users/joaquinsalas/esp/hello_world/main/hello_world_main.c:100
+0x40158cdf: main_task at /Users/joaquinsalas/esp/esp-idf/components/freertos/app_startup.c:208
+0x40089f85: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m

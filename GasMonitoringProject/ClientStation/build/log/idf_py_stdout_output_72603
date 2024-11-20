@@ -1,0 +1,71 @@
+[1/5] cd /Users/joaquinsalas/esp/ClientStation/build/esp-idf/esptool_py && /Users/joaquinsalas/.espressif/python_env/idf5.2_py3.13_env/bin/python /Users/joaquinsalas/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/joaquinsalas/esp/ClientStation/build/partition_table/partition-table.bin /Users/joaquinsalas/esp/ClientStation/build/wifi_station.bin
+wifi_station.bin binary size 0xbbc20 bytes. Smallest app partition is 0x100000 bytes. 0x443e0 bytes (27%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /Users/joaquinsalas/esp/ClientStation/build/bootloader/esp-idf/esptool_py && /Users/joaquinsalas/.espressif/python_env/idf5.2_py3.13_env/bin/python /Users/joaquinsalas/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/joaquinsalas/esp/ClientStation/build/bootloader/bootloader.bin
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] cd /Users/joaquinsalas/esp/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -D IDF_PATH=/Users/joaquinsalas/esp/esp-idf -D "SERIAL_TOOL=/Users/joaquinsalas/.espressif/python_env/idf5.2_py3.13_env/bin/python;;/Users/joaquinsalas/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/joaquinsalas/esp/ClientStation/build -P /Users/joaquinsalas/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/cu.usbserial-0001 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 wifi_station.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port /dev/cu.usbserial-0001
+Connecting.....
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+WARNING: Detected crystal freq 41.01MHz is quite different to normalized freq 40MHz. Unsupported crystal in use?
+Crystal is 40MHz
+MAC: 58:bf:25:a1:2a:4c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000cbfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26720 bytes to 16343...
+Writing at 0x00001000... (100 %)
+Wrote 26720 bytes (16343 compressed) at 0x00001000 in 0.9 seconds (effective 251.2 kbit/s)...
+Hash of data verified.
+Compressed 769056 bytes to 485544...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001cce0... (6 %)
+Writing at 0x000241d4... (10 %)
+Writing at 0x00029089... (13 %)
+Writing at 0x00031dee... (16 %)
+Writing at 0x00037523... (20 %)
+Writing at 0x0003d28f... (23 %)
+Writing at 0x00042a4c... (26 %)
+Writing at 0x00048654... (30 %)
+Writing at 0x0004e2fe... (33 %)
+Writing at 0x00053d12... (36 %)
+Writing at 0x00059c38... (40 %)
+Writing at 0x0005f583... (43 %)
+Writing at 0x000657cf... (46 %)
+Writing at 0x0006ab99... (50 %)
+Writing at 0x0006ff5e... (53 %)
+Writing at 0x000755bb... (56 %)
+Writing at 0x0007acad... (60 %)
+Writing at 0x00080851... (63 %)
+Writing at 0x00086143... (66 %)
+Writing at 0x0008bdea... (70 %)
+Writing at 0x0009175c... (73 %)
+Writing at 0x00097500... (76 %)
+Writing at 0x000a1807... (80 %)
+Writing at 0x000a92e6... (83 %)
+Writing at 0x000aef86... (86 %)
+Writing at 0x000b6fec... (90 %)
+Writing at 0x000bca9f... (93 %)
+Writing at 0x000c2bc9... (96 %)
+Writing at 0x000c82c1... (100 %)
+Wrote 769056 bytes (485544 compressed) at 0x00010000 in 12.6 seconds (effective 489.3 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 208.2 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

@@ -1,0 +1,2088 @@
+ticore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[B[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68)�ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (30) boot: ESP-IDF v5.2.3 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time Nov  8 2024 14:03:38[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=23784h (145284) map[0m
+[0;32mI (153) esp_image: segment 1: paddr=000337ac vaddr=3ffb0000 size=03cdch ( 15580) load[0m
+[0;32mI (159) esp_image: segment 2: paddr=00037490 vaddr=40080000 size=08b88h ( 35720) load[0m
+[0;32mI (174) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=91334h (594740) map[0m
+[0;32mI (378) esp_image: segment 4: paddr=000d135c vaddr=40088b88 size=0df68h ( 57192) load[0m
+[0;32mI (412) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (412) boot: Disabling RNG early entropy source...[0m
+[0;32mI (423) cpu_start: Multicore app[0m
+[0;32mI (432) cpu_start: Pro cpu start user code[0m
+[0;32mI (432) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (433) cpu_start: Application information:[0m
+[0;32mI (435) cpu_start: Project name:     wifi_station[0m
+[0;32mI (441) cpu_start: App version:      1[0m
+[0;32mI (445) cpu_start: Compile time:     Nov  8 2024 14:01:59[0m
+[0;32mI (451) cpu_start: ELF file SHA256:  4a53477c5...[0m
+[0;32mI (457) cpu_start: ESP-IDF:          v5.2.3[0m
+[0;32mI (462) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (466) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (471) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (476) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (483) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (489) heap_init: At 3FFB8330 len 00027CD0 (159 KiB): DRAM[0m
+[0;32mI (495) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (502) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (508) heap_init: At 40096AF0 len 00009510 (37 KiB): IRAM[0m
+[0;32mI (516) spi_flash: detected chip: generic[0m
+[0;32mI (519) spi_flash: flash io: dio[0m
+[0;33mW (523) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (537) main_task: Started on CPU0[0m
+[0;32mI (547) main_task: Calling app_main()[0m
+[0;32mI (567) wifi station: ESP_WIFI_MODE_STA[0m
+[0;32mI (577) wifi:wifi driver task: 3ffc0200, prio:23, stack:6656, core=0[0m
+[0;32mI (587) wifi:wifi firmware version: 82f54d2[0m
+[0;32mI (587) wifi:wifi certification version: v7.0[0m
+[0;32mI (587) wifi:config NVS flash: enabled[0m
+[0;32mI (587) wifi:config nano formating: disabled[0m
+[0;32mI (587) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (597) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (597) wifi:Init management short buffer num: 32[0m
+[0;32mI (607) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (607) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (607) wifi:Init static rx buffer num: 10[0m
+[0;32mI (617) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (617) wifi_init: rx ba win: 6[0m
+[0;32mI (627) wifi_init: tcpip mbox: 32[0m
+[0;32mI (627) wifi_init: udp mbox: 6[0m
+[0;32mI (627) wifi_init: tcp mbox: 6[0m
+[0;32mI (637) wifi_init: tcp tx win: 5760[0m
+[0;32mI (637) wifi_init: tcp rx win: 5760[0m
+[0;32mI (647) wifi_init: tcp mss: 1440[0m
+[0;32mI (647) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (647) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (657) phy_init: phy_version 4840,a40f0ac,Aug 16 2024,16:48:06[0m
+[0;32mI (737) wifi:mode : sta (58:bf:25:a1:2a:4c)[0m
+[0;32mI (737) wifi:enable tsf[0m
+[0;32mI (747) wifi station: wifi_init_sta finished.[0m
+[0;32mI (757) wifi:new:<1,1>, old:<1,0>, ap:<255,255>, sta:<1,1>, prof:1[0m
+[0;32mI (757) wifi:state: init -> auth (b0)[0m
+[0;32mI (767) wifi:state: auth -> assoc (0)[0m
+[0;32mI (777) wifi:Association refused temporarily time 1500, comeback time 1600 (TUs)[0m
+[0;32mI (2417) wifi:state: assoc -> assoc (0)[0m
+[0;32mI (2427) wifi:state: assoc -> run (10)[0m
+[0;32mI (2437) wifi:connected with ESP32-Access-Point, aid = 1, channel 1, 40U, bssid = c8:c9:a3:c7:a8:cd[0m
+[0;32mI (2437) wifi:security: WPA2-PSK, phy: bgn, rssi: -43[0m
+[0;32mI (2447) wifi:pm start, type: 1[0m
+
+[0;32mI (2447) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (2457) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us[0m
+[0;32mI (2467) wifi:AP's beacon interval = 102400 us, DTIM period = 2[0m
+[0;32mI (3457) esp_netif_handlers: sta ip: 192.168.4.2, mask: 255.255.255.0, gw: 192.168.4.1[0m
+[0;32mI (3457) wifi station: got ip:192.168.4.2[0m
+[0;32mI (3457) wifi station: connected to ap SSID:ESP32-Access-Point password:joaquinsalas[0m
+[0;32mI (3467) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3487) wifi:<ba-add>idx:0 (ifx:0, c8:c9:a3:c7:a8:cd), tid:0, ssn:0, winSize:64[0m
+[0;32mI (3727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3727) wifi station: Response from the server: [0m
+[0;32mI (8737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (8977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (8977) wifi station: Response from the server: [0m
+[0;32mI (13987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (14227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (14227) wifi station: Response from the server: [0m
+[0;32mI (19237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (19477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (19477) wifi station: Response from the server: [0m
+[0;32mI (24487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (24727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (24727) wifi station: Response from the server: [0m
+[0;32mI (29737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (29977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (29977) wifi station: Response from the server: [0m
+[0;32mI (34987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (35227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (35227) wifi station: Response from the server: [0m
+[0;32mI (40237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (40477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (40477) wifi station: Response from the server: [0m
+[0;32mI (45487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (45727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (45727) wifi station: Response from the server: [0m
+[0;32mI (50737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (50977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (50977) wifi station: Response from the server: [0m
+[0;32mI (55987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (56227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (56227) wifi station: Response from the server: [0m
+[0;32mI (61237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (61477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (61477) wifi station: Response from the server: [0m
+[0;32mI (66487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (66727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (66727) wifi station: Response from the server: [0m
+[0;32mI (71737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (71977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (71977) wifi station: Response from the server: [0m
+[0;32mI (76987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (77227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (77227) wifi station: Response from the server: [0m
+[0;32mI (82237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (82477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (82477) wifi station: Response from the server: [0m
+[0;32mI (87487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (87727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (87727) wifi station: Response from the server: [0m
+[0;32mI (92737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (92977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (92977) wifi station: Response from the server: [0m
+[0;32mI (97987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (98227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (98227) wifi station: Response from the server: [0m
+[0;32mI (103237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (103477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (103477) wifi station: Response from the server: [0m
+[0;32mI (108487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (108727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (108727) wifi station: Response from the server: [0m
+[0;32mI (113737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (113977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (113987) wifi station: Response from the server: [0m
+[0;32mI (118987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (119227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (119227) wifi station: Response from the server: [0m
+[0;32mI (124237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (124477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (124477) wifi station: Response from the server: [0m
+[0;32mI (129487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (129727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (129727) wifi station: Response from the server: [0m
+[0;32mI (134737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (134977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (134977) wifi station: Response from the server: [0m
+[0;32mI (139987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (140227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (140227) wifi station: Response from the server: [0m
+[0;32mI (145237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (145477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (145477) wifi station: Response from the server: [0m
+[0;32mI (150487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (150727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (150727) wifi station: Response from the server: [0m
+[0;32mI (155737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (155977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (155977) wifi station: Response from the server: [0m
+[0;32mI (160987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (161227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (161227) wifi station: Response from the server: [0m
+[0;32mI (166237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (166477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (166477) wifi station: Response from the server: [0m
+[0;32mI (171487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (171727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (171727) wifi station: Response from the server: [0m
+[0;32mI (176737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (176977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (176977) wifi station: Response from the server: [0m
+[0;32mI (181987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (182227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (182227) wifi station: Response from the server: [0m
+[0;32mI (187237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (187477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (187477) wifi station: Response from the server: [0m
+[0;32mI (192487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (192727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (192727) wifi station: Response from the server: [0m
+[0;32mI (197737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (197977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (197977) wifi station: Response from the server: [0m
+[0;32mI (202987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (203227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (203227) wifi station: Response from the server: [0m
+[0;32mI (208237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (208477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (208477) wifi station: Response from the server: [0m
+[0;32mI (213487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (213727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (213727) wifi station: Response from the server: [0m
+[0;32mI (218737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (218977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (218977) wifi station: Response from the server: [0m
+[0;32mI (223987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (224227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (224227) wifi station: Response from the server: [0m
+[0;32mI (229237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (229477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (229477) wifi station: Response from the server: [0m
+[0;32mI (234487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (234727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (234727) wifi station: Response from the server: [0m
+[0;32mI (239737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (239987) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (239987) wifi station: Response from the server: [0m
+[0;32mI (244987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (245227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (245227) wifi station: Response from the server: [0m
+[0;32mI (250237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (250477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (250477) wifi station: Response from the server: [0m
+[0;32mI (255487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (255727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (255727) wifi station: Response from the server: [0m
+[0;32mI (260737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (260977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (260977) wifi station: Response from the server: [0m
+[0;32mI (265987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (266227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (266227) wifi station: Response from the server: [0m
+[0;32mI (271237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (271477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (271477) wifi station: Response from the server: [0m
+[0;32mI (276487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (276727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (276727) wifi station: Response from the server: [0m
+[0;32mI (281737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (281977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (281977) wifi station: Response from the server: [0m
+[0;32mI (286987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (287227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (287227) wifi station: Response from the server: [0m
+[0;32mI (292237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (292477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (292477) wifi station: Response from the server: [0m
+[0;32mI (297487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (297727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (297727) wifi station: Response from the server: [0m
+[0;32mI (302737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (302977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (302977) wifi station: Response from the server: [0m
+[0;32mI (307987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (308227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (308227) wifi station: Response from the server: [0m
+[0;32mI (313237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (313477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (313477) wifi station: Response from the server: [0m
+[0;32mI (318487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (318727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (318727) wifi station: Response from the server: [0m
+[0;32mI (323737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (323977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (323977) wifi station: Response from the server: [0m
+[0;32mI (328987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (329227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (329227) wifi station: Response from the server: [0m
+[0;32mI (334237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (334477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (334477) wifi station: Response from the server: [0m
+[0;32mI (339487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (339727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (339727) wifi station: Response from the server: [0m
+[0;32mI (344737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (344977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (344977) wifi station: Response from the server: [0m
+[0;32mI (349987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (350227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (350227) wifi station: Response from the server: [0m
+[0;32mI (355237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (355477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (355477) wifi station: Response from the server: [0m
+[0;32mI (360487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (360727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (360727) wifi station: Response from the server: [0m
+[0;32mI (365737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (365977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (365977) wifi station: Response from the server: [0m
+[0;32mI (370987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (371227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (371227) wifi station: Response from the server: [0m
+[0;32mI (376237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (376477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (376477) wifi station: Response from the server: [0m
+[0;32mI (381487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (381727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (381727) wifi station: Response from the server: [0m
+[0;32mI (386737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (386977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (386977) wifi station: Response from the server: [0m
+[0;32mI (391987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (392227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (392227) wifi station: Response from the server: [0m
+[0;32mI (397237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (397477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (397477) wifi station: Response from the server: [0m
+[0;32mI (402487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (402727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (402727) wifi station: Response from the server: [0m
+[0;32mI (407737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (407977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (407977) wifi station: Response from the server: [0m
+[0;32mI (412987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (413227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (413227) wifi station: Response from the server: [0m
+[0;32mI (418237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (418477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (418477) wifi station: Response from the server: [0m
+[0;32mI (423487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (423727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (423727) wifi station: Response from the server: [0m
+[0;32mI (428737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (428977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (428977) wifi station: Response from the server: [0m
+[0;32mI (433987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (434227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (434227) wifi station: Response from the server: [0m
+[0;32mI (439237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (439477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (439477) wifi station: Response from the server: [0m
+[0;32mI (444487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (444727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (444727) wifi station: Response from the server: [0m
+[0;32mI (449737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (449977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (449977) wifi station: Response from the server: [0m
+[0;32mI (454987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (455227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (455227) wifi station: Response from the server: [0m
+[0;32mI (460237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (460477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (460477) wifi station: Response from the server: [0m
+[0;32mI (465487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (465727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (465727) wifi station: Response from the server: [0m
+[0;32mI (470737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (470977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (470977) wifi station: Response from the server: [0m
+[0;32mI (475987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (476227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (476227) wifi station: Response from the server: [0m
+[0;32mI (481237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (481477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (481477) wifi station: Response from the server: [0m
+[0;32mI (486487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (486727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (486727) wifi station: Response from the server: [0m
+[0;32mI (491737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (491977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (491977) wifi station: Response from the server: [0m
+[0;32mI (496987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (497227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (497227) wifi station: Response from the server: [0m
+[0;32mI (502237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (502477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (502477) wifi station: Response from the server: [0m
+[0;32mI (507487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (507727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (507727) wifi station: Response from the server: [0m
+[0;32mI (512737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (512977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (512977) wifi station: Response from the server: [0m
+[0;32mI (517987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (518227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (518227) wifi station: Response from the server: [0m
+[0;32mI (523237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (523487) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (523487) wifi station: Response from the server: [0m
+[0;32mI (528487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (528727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (528727) wifi station: Response from the server: [0m
+[0;32mI (533737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (533987) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (533987) wifi station: Response from the server: [0m
+[0;32mI (538987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (539227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (539227) wifi station: Response from the server: [0m
+[0;32mI (544237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (544477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (544477) wifi station: Response from the server: [0m
+[0;32mI (549487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (549727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (549727) wifi station: Response from the server: [0m
+[0;32mI (554737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (554977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (554977) wifi station: Response from the server: [0m
+[0;32mI (559987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (560227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (560227) wifi station: Response from the server: [0m
+[0;32mI (565237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (565477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (565477) wifi station: Response from the server: [0m
+[0;32mI (570487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (570727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (570727) wifi station: Response from the server: [0m
+[0;32mI (575737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (575977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (575977) wifi station: Response from the server: [0m
+[0;32mI (580987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (581227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (581227) wifi station: Response from the server: [0m
+[0;32mI (586237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (586477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (586477) wifi station: Response from the server: [0m
+[0;32mI (591487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (591727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (591727) wifi station: Response from the server: [0m
+[0;32mI (596737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (596977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (596977) wifi station: Response from the server: [0m
+[0;32mI (601987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (602237) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (602237) wifi station: Response from the server: [0m
+[0;32mI (607237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (607477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (607477) wifi station: Response from the server: [0m
+[0;32mI (612487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (612727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (612727) wifi station: Response from the server: [0m
+[0;32mI (617737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (617977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (617977) wifi station: Response from the server: [0m
+[0;32mI (622987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (623227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (623227) wifi station: Response from the server: [0m
+[0;32mI (628237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (628477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (628477) wifi station: Response from the server: [0m
+[0;32mI (633487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (633727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (633727) wifi station: Response from the server: [0m
+[0;32mI (638737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (638977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (638977) wifi station: Response from the server: [0m
+[0;32mI (643987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (644227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (644227) wifi station: Response from the server: [0m
+[0;32mI (649237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (649477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (649477) wifi station: Response from the server: [0m
+[0;32mI (654487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (654727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (654727) wifi station: Response from the server: [0m
+[0;32mI (659737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (659977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (659977) wifi station: Response from the server: [0m
+[0;32mI (664987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (665227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (665227) wifi station: Response from the server: [0m
+[0;32mI (670237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (670477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (670477) wifi station: Response from the server: [0m
+[0;32mI (675487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (675727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (675727) wifi station: Response from the server: [0m
+[0;32mI (680737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (680977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (680987) wifi station: Response from the server: [0m
+[0;32mI (685987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (686227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (686227) wifi station: Response from the server: [0m
+[0;32mI (691237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (691477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (691477) wifi station: Response from the server: [0m
+[0;32mI (696487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (696727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (696727) wifi station: Response from the server: [0m
+[0;32mI (701737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (701977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (701977) wifi station: Response from the server: [0m
+[0;32mI (706987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (707227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (707227) wifi station: Response from the server: [0m
+[0;32mI (712237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (712477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (712477) wifi station: Response from the server: [0m
+[0;32mI (717487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (717727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (717727) wifi station: Response from the server: [0m
+[0;32mI (722737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (722977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (722977) wifi station: Response from the server: [0m
+[0;32mI (727987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (728227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (728227) wifi station: Response from the server: [0m
+[0;32mI (733237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (733477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (733477) wifi station: Response from the server: [0m
+[0;32mI (738487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (738727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (738727) wifi station: Response from the server: [0m
+[0;32mI (743737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (743977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (743977) wifi station: Response from the server: [0m
+[0;32mI (748987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (749227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (749227) wifi station: Response from the server: [0m
+[0;32mI (754237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (754477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (754477) wifi station: Response from the server: [0m
+[0;32mI (759487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (759727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (759727) wifi station: Response from the server: [0m
+[0;32mI (764737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (764977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (764977) wifi station: Response from the server: [0m
+[0;32mI (769987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (770227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (770227) wifi station: Response from the server: [0m
+[0;32mI (775237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (775497) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (775497) wifi station: Response from the server: [0m
+[0;32mI (780507) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (780737) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (780737) wifi station: Response from the server: [0m
+[0;32mI (785737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (785977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (785977) wifi station: Response from the server: [0m
+[0;32mI (790987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (791227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (791227) wifi station: Response from the server: [0m
+[0;32mI (796237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (796497) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (796497) wifi station: Response from the server: [0m
+[0;32mI (801497) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (801727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (801727) wifi station: Response from the server: [0m
+[0;32mI (806737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (806977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (806977) wifi station: Response from the server: [0m
+[0;32mI (811987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (812227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (812237) wifi station: Response from the server: [0m
+[0;32mI (817237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (817477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (817477) wifi station: Response from the server: [0m
+[0;32mI (822487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (822727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (822727) wifi station: Response from the server: [0m
+[0;32mI (827737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (827977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (827977) wifi station: Response from the server: [0m
+[0;32mI (832987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (833227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (833227) wifi station: Response from the server: [0m
+[0;32mI (838237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (838477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (838477) wifi station: Response from the server: [0m
+[0;32mI (843487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (843727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (843727) wifi station: Response from the server: [0m
+[0;32mI (848737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (848977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (848977) wifi station: Response from the server: [0m
+[0;32mI (853987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (854227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (854227) wifi station: Response from the server: [0m
+[0;32mI (859237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (859477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (859477) wifi station: Response from the server: [0m
+[0;32mI (864487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (864727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (864727) wifi station: Response from the server: [0m
+[0;32mI (869737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (869977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (869977) wifi station: Response from the server: [0m
+[0;32mI (874987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (875227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (875227) wifi station: Response from the server: [0m
+[0;32mI (880237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (880487) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (880487) wifi station: Response from the server: [0m
+[0;32mI (885487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (885727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (885727) wifi station: Response from the server: [0m
+[0;32mI (890737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (890977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (890977) wifi station: Response from the server: [0m
+[0;32mI (895987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (896237) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (896237) wifi station: Response from the server: [0m
+[0;32mI (901237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (901487) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (901487) wifi station: Response from the server: [0m
+[0;32mI (906487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (906727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (906727) wifi station: Response from the server: [0m
+[0;32mI (911737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (911977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (911977) wifi station: Response from the server: [0m
+[0;32mI (916987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (917227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (917227) wifi station: Response from the server: [0m
+[0;32mI (922237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (922477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (922477) wifi station: Response from the server: [0m
+[0;32mI (927487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (927727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (927727) wifi station: Response from the server: [0m
+[0;32mI (932737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (932977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (932977) wifi station: Response from the server: [0m
+[0;32mI (937987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (938227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (938227) wifi station: Response from the server: [0m
+[0;32mI (943237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (943477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (943477) wifi station: Response from the server: [0m
+[0;32mI (948487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (948727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (948727) wifi station: Response from the server: [0m
+[0;32mI (953737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (953977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (953977) wifi station: Response from the server: [0m
+[0;32mI (958987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (959227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (959227) wifi station: Response from the server: [0m
+[0;32mI (964237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (964477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (964477) wifi station: Response from the server: [0m
+[0;32mI (969487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (969727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (969727) wifi station: Response from the server: [0m
+[0;32mI (974737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (974977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (974977) wifi station: Response from the server: [0m
+[0;32mI (979987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (980227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (980227) wifi station: Response from the server: [0m
+[0;32mI (985237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (985477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (985477) wifi station: Response from the server: [0m
+[0;32mI (990487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (990727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (990727) wifi station: Response from the server: [0m
+[0;32mI (995737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (995977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (995977) wifi station: Response from the server: [0m
+[0;32mI (1000987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1001237) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1001237) wifi station: Response from the server: [0m
+[0;32mI (1006237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1006477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1006477) wifi station: Response from the server: [0m
+[0;32mI (1011487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1011727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1011727) wifi station: Response from the server: [0m
+[0;32mI (1016737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1016977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1016977) wifi station: Response from the server: [0m
+[0;32mI (1021987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1022227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1022227) wifi station: Response from the server: [0m
+[0;32mI (1027237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1027477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1027477) wifi station: Response from the server: [0m
+[0;32mI (1032487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1032727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1032727) wifi station: Response from the server: [0m
+[0;32mI (1037737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1037977) wifi station: HTTP Status = 200, content_length = 70[0m
+[0;32mI (1037977) wifi station: Response from the server: [0m
+[0;32mI (1042987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1043227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1043227) wifi station: Response from the server: [0m
+[0;32mI (1048237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1048487) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1048487) wifi station: Response from the server: [0m
+[0;32mI (1053497) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1053727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1053737) wifi station: Response from the server: [0m
+[0;32mI (1058737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1058977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1058977) wifi station: Response from the server: [0m
+[0;32mI (1063987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1064227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1064227) wifi station: Response from the server: [0m
+[0;32mI (1069237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1069487) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1069487) wifi station: Response from the server: [0m
+[0;32mI (1074497) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1074727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1074727) wifi station: Response from the server: [0m
+[0;32mI (1079737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1079977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1079977) wifi station: Response from the server: [0m
+[0;32mI (1084987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1085227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1085227) wifi station: Response from the server: [0m
+[0;32mI (1090237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1090477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1090477) wifi station: Response from the server: [0m
+[0;32mI (1095487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1095727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1095727) wifi station: Response from the server: [0m
+[0;32mI (1100737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1100977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1100977) wifi station: Response from the server: [0m
+[0;32mI (1105987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1106227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1106227) wifi station: Response from the server: [0m
+[0;32mI (1111237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1111477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1111477) wifi station: Response from the server: [0m
+[0;32mI (1116487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1116727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1116727) wifi station: Response from the server: [0m
+[0;32mI (1121737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1121977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1121977) wifi station: Response from the server: [0m
+[0;32mI (1126987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1127227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1127227) wifi station: Response from the server: [0m
+[0;32mI (1132237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1132477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1132477) wifi station: Response from the server: [0m
+[0;32mI (1137487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1137727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1137727) wifi station: Response from the server: [0m
+[0;32mI (1142737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1142977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1142977) wifi station: Response from the server: [0m
+[0;32mI (1147987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1148227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1148227) wifi station: Response from the server: [0m
+[0;32mI (1153237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1153477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1153477) wifi station: Response from the server: [0m
+[0;32mI (1158487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1158727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1158727) wifi station: Response from the server: [0m
+[0;32mI (1163737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1163977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1163977) wifi station: Response from the server: [0m
+[0;32mI (1168987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1169227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1169227) wifi station: Response from the server: [0m
+[0;32mI (1174237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1174477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1174477) wifi station: Response from the server: [0m
+[0;32mI (1179487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1179727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1179727) wifi station: Response from the server: [0m
+[0;32mI (1184737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1184977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1184987) wifi station: Response from the server: [0m
+[0;32mI (1189987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1190227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1190227) wifi station: Response from the server: [0m
+[0;32mI (1195237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1195477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1195477) wifi station: Response from the server: [0m
+[0;32mI (1200487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1200727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1200727) wifi station: Response from the server: [0m
+[0;32mI (1205737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1205977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1205977) wifi station: Response from the server: [0m
+[0;32mI (1210987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1211227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1211227) wifi station: Response from the server: [0m
+[0;32mI (1216237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1216477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1216477) wifi station: Response from the server: [0m
+[0;32mI (1221487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1221727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1221727) wifi station: Response from the server: [0m
+[0;32mI (1226737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1226977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1226977) wifi station: Response from the server: [0m
+[0;32mI (1231987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1232227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1232227) wifi station: Response from the server: [0m
+[0;32mI (1237237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1237477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1237477) wifi station: Response from the server: [0m
+[0;32mI (1242487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1242727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1242727) wifi station: Response from the server: [0m
+[0;32mI (1247737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1247977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1247977) wifi station: Response from the server: [0m
+[0;32mI (1252987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1253227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1253227) wifi station: Response from the server: [0m
+[0;32mI (1258237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1258477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1258477) wifi station: Response from the server: [0m
+[0;32mI (1263487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1263727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1263737) wifi station: Response from the server: [0m
+[0;32mI (1268737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1268977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1268977) wifi station: Response from the server: [0m
+[0;32mI (1273987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1274227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1274227) wifi station: Response from the server: [0m
+[0;32mI (1279237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1279477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1279477) wifi station: Response from the server: [0m
+[0;32mI (1284487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1284737) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1284737) wifi station: Response from the server: [0m
+[0;32mI (1289737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1289977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1289977) wifi station: Response from the server: [0m
+[0;32mI (1294987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1295227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1295227) wifi station: Response from the server: [0m
+[0;32mI (1300237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1300477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1300477) wifi station: Response from the server: [0m
+[0;32mI (1305487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1305727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1305727) wifi station: Response from the server: [0m
+[0;32mI (1310737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1310977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1310977) wifi station: Response from the server: [0m
+[0;32mI (1315987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1316227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1316227) wifi station: Response from the server: [0m
+[0;32mI (1321237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1321477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1321477) wifi station: Response from the server: [0m
+[0;32mI (1326487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1326727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1326727) wifi station: Response from the server: [0m
+[0;32mI (1331737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1331977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1331977) wifi station: Response from the server: [0m
+[0;32mI (1336987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1337227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1337227) wifi station: Response from the server: [0m
+[0;32mI (1342237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1342487) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1342487) wifi station: Response from the server: [0m
+[0;32mI (1347487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1347727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1347727) wifi station: Response from the server: [0m
+[0;32mI (1352737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1352977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1352977) wifi station: Response from the server: [0m
+[0;32mI (1357987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1358227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1358227) wifi station: Response from the server: [0m
+[0;32mI (1363237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1363477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1363477) wifi station: Response from the server: [0m
+[0;32mI (1368487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1368727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1368727) wifi station: Response from the server: [0m
+[0;32mI (1373737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1373977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1373977) wifi station: Response from the server: [0m
+[0;32mI (1378987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1379227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1379227) wifi station: Response from the server: [0m
+[0;32mI (1384237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1384477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1384477) wifi station: Response from the server: [0m
+[0;32mI (1389487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1389727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1389727) wifi station: Response from the server: [0m
+[0;32mI (1394737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1394987) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1394987) wifi station: Response from the server: [0m
+[0;32mI (1399987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1400227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1400227) wifi station: Response from the server: [0m
+[0;32mI (1405237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1405477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1405477) wifi station: Response from the server: [0m
+[0;32mI (1410487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1410727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1410727) wifi station: Response from the server: [0m
+[0;32mI (1415737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1415977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1415977) wifi station: Response from the server: [0m
+[0;32mI (1420987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1421227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1421237) wifi station: Response from the server: [0m
+[0;32mI (1426237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1426477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1426477) wifi station: Response from the server: [0m
+[0;32mI (1431487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1431727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1431727) wifi station: Response from the server: [0m
+[0;32mI (1436737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1436977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1436977) wifi station: Response from the server: [0m
+[0;32mI (1441987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1442227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1442227) wifi station: Response from the server: [0m
+[0;32mI (1447237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1447477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1447477) wifi station: Response from the server: [0m
+[0;32mI (1452487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1452727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1452727) wifi station: Response from the server: [0m
+[0;32mI (1457737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1457977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1457977) wifi station: Response from the server: [0m
+[0;32mI (1462987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1463227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1463227) wifi station: Response from the server: [0m
+[0;32mI (1468237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1468477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1468477) wifi station: Response from the server: [0m
+[0;32mI (1473487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1473727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1473727) wifi station: Response from the server: [0m
+[0;32mI (1478737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1478977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1478977) wifi station: Response from the server: [0m
+[0;32mI (1483987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1484227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1484227) wifi station: Response from the server: [0m
+[0;32mI (1489237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1489477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1489477) wifi station: Response from the server: [0m
+[0;32mI (1494487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1494727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1494727) wifi station: Response from the server: [0m
+[0;32mI (1499737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1499977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1499987) wifi station: Response from the server: [0m
+[0;32mI (1504987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1505227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1505227) wifi station: Response from the server: [0m
+[0;32mI (1510237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1510477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1510477) wifi station: Response from the server: [0m
+[0;32mI (1515487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1515727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1515727) wifi station: Response from the server: [0m
+[0;32mI (1520737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1520977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1520977) wifi station: Response from the server: [0m
+[0;32mI (1525987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1526227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1526227) wifi station: Response from the server: [0m
+[0;32mI (1531237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1531477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1531477) wifi station: Response from the server: [0m
+[0;32mI (1536487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1536727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1536727) wifi station: Response from the server: [0m
+[0;32mI (1541737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1541977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1541977) wifi station: Response from the server: [0m
+[0;32mI (1546987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1547227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1547227) wifi station: Response from the server: [0m
+[0;32mI (1552237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1552477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1552477) wifi station: Response from the server: [0m
+[0;32mI (1557487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1557737) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1557737) wifi station: Response from the server: [0m
+[0;32mI (1562737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1562977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1562977) wifi station: Response from the server: [0m
+[0;32mI (1567987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1568227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1568227) wifi station: Response from the server: [0m
+[0;32mI (1573237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1573477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1573477) wifi station: Response from the server: [0m
+[0;32mI (1578487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1578727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1578727) wifi station: Response from the server: [0m
+[0;32mI (1583737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1583977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1583977) wifi station: Response from the server: [0m
+[0;32mI (1657237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1657477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1657477) wifi station: Response from the server: [0m
+[0;32mI (1662487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1662727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1662727) wifi station: Response from the server: [0m
+[0;32mI (1667737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1667977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1667977) wifi station: Response from the server: [0m
+[0;32mI (1672987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1673227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1673227) wifi station: Response from the server: [0m
+[0;32mI (1678237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1678477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1678477) wifi station: Response from the server: [0m
+[0;32mI (1683487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1683727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1683727) wifi station: Response from the server: [0m
+[0;32mI (1688737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1688977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1688977) wifi station: Response from the server: [0m
+[0;32mI (1693987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1694227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1694227) wifi station: Response from the server: [0m
+[0;32mI (1699237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1699477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1699477) wifi station: Response from the server: [0m
+[0;32mI (1704487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1704727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1704727) wifi station: Response from the server: [0m
+[0;32mI (1709737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1709977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1709977) wifi station: Response from the server: [0m
+[0;32mI (1714987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1715227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1715227) wifi station: Response from the server: [0m
+[0;32mI (1720237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1720477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1720477) wifi station: Response from the server: [0m
+[0;32mI (1725487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1725727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1725727) wifi station: Response from the server: [0m
+[0;32mI (1730737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1730977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1730977) wifi station: Response from the server: [0m
+[0;32mI (1735987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1736227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1736227) wifi station: Response from the server: [0m
+[0;32mI (1741237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1741477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1741487) wifi station: Response from the server: [0m
+[0;32mI (1746487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1746727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1746727) wifi station: Response from the server: [0m
+[0;32mI (1751737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1751977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1751977) wifi station: Response from the server: [0m
+[0;32mI (1756987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1757227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1757227) wifi station: Response from the server: [0m
+[0;32mI (1762237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1762477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1762477) wifi station: Response from the server: [0m
+[0;32mI (1767487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1767727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1767727) wifi station: Response from the server: [0m
+[0;32mI (1772737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1772977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1772977) wifi station: Response from the server: [0m
+[0;32mI (1777987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1778227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1778227) wifi station: Response from the server: [0m
+[0;32mI (1783237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1783477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1783477) wifi station: Response from the server: [0m
+[0;32mI (1788487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1788727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1788727) wifi station: Response from the server: [0m
+[0;32mI (1793737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1793977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1793977) wifi station: Response from the server: [0m
+[0;32mI (1798987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1799227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1799227) wifi station: Response from the server: [0m
+[0;32mI (1804237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1804477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1804477) wifi station: Response from the server: [0m
+[0;32mI (1809487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1809727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1809727) wifi station: Response from the server: [0m
+[0;32mI (1814737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1814977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1814977) wifi station: Response from the server: [0m
+[0;32mI (1819987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1820227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1820227) wifi station: Response from the server: [0m
+[0;32mI (1825237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1825477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1825477) wifi station: Response from the server: [0m
+[0;32mI (1830487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1830727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1830727) wifi station: Response from the server: [0m
+[0;32mI (1835737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1835977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1835977) wifi station: Response from the server: [0m
+[0;32mI (1840987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1841227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1841227) wifi station: Response from the server: [0m
+[0;32mI (1846237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1846477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1846477) wifi station: Response from the server: [0m
+[0;32mI (1851487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1851727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1851727) wifi station: Response from the server: [0m
+[0;32mI (1856737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1856977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1856977) wifi station: Response from the server: [0m
+[0;32mI (1861987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1862227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1862227) wifi station: Response from the server: [0m
+[0;32mI (1867237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1867477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1867477) wifi station: Response from the server: [0m
+[0;32mI (1872487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1872727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1872727) wifi station: Response from the server: [0m
+[0;32mI (1877737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1877977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1877977) wifi station: Response from the server: [0m
+[0;32mI (1882987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1883227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1883227) wifi station: Response from the server: [0m
+[0;32mI (1888237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1888477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1888477) wifi station: Response from the server: [0m
+[0;32mI (1893487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1893727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1893727) wifi station: Response from the server: [0m
+[0;32mI (1898737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1898977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1898977) wifi station: Response from the server: [0m
+[0;32mI (1903987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1904227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1904227) wifi station: Response from the server: [0m
+[0;32mI (1909237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1909477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1909477) wifi station: Response from the server: [0m
+[0;32mI (1914487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1914727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1914727) wifi station: Response from the server: [0m
+[0;32mI (1919737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1919977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1919977) wifi station: Response from the server: [0m
+[0;32mI (1924987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1925227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1925227) wifi station: Response from the server: [0m
+[0;32mI (1930237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1930477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1930477) wifi station: Response from the server: [0m
+[0;32mI (1935487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1935727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1935727) wifi station: Response from the server: [0m
+[0;32mI (1940737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1940977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1940977) wifi station: Response from the server: [0m
+[0;32mI (1945987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1946227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1946227) wifi station: Response from the server: [0m
+[0;32mI (1951237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1951477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1951477) wifi station: Response from the server: [0m
+[0;32mI (1956487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1956727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1956727) wifi station: Response from the server: [0m
+[0;32mI (1961737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1961977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1961977) wifi station: Response from the server: [0m
+[0;32mI (1966987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1967227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1967227) wifi station: Response from the server: [0m
+[0;32mI (1972237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1972477) wifi station: HTTP Status = 200, content_length = 70[0m
+[0;32mI (1972477) wifi station: Response from the server: [0m
+[0;32mI (1977487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1977727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (1977727) wifi station: Response from the server: [0m
+[0;32mI (1982737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1982977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1982977) wifi station: Response from the server: [0m
+[0;32mI (1987987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1988227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (1988227) wifi station: Response from the server: [0m
+[0;32mI (1993237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1993477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (1993477) wifi station: Response from the server: [0m
+[0;32mI (1998487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (1998727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (1998727) wifi station: Response from the server: [0m
+[0;32mI (2003737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2003977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2003977) wifi station: Response from the server: [0m
+[0;32mI (2008987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2009227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2009227) wifi station: Response from the server: [0m
+[0;32mI (2014237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2014477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2014477) wifi station: Response from the server: [0m
+[0;32mI (2019487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2019727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2019727) wifi station: Response from the server: [0m
+[0;32mI (2024737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2024977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2024977) wifi station: Response from the server: [0m
+[0;32mI (2029987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2030227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2030227) wifi station: Response from the server: [0m
+[0;32mI (2035237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2035477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2035477) wifi station: Response from the server: [0m
+[0;32mI (2040487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2040727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2040727) wifi station: Response from the server: [0m
+[0;32mI (2045737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2045987) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2045987) wifi station: Response from the server: [0m
+[0;32mI (2050987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2051227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2051227) wifi station: Response from the server: [0m
+[0;32mI (2056237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2056477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2056477) wifi station: Response from the server: [0m
+[0;32mI (2061487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2061727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2061727) wifi station: Response from the server: [0m
+[0;32mI (2066737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2066977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2066977) wifi station: Response from the server: [0m
+[0;32mI (2071987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2072227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2072227) wifi station: Response from the server: [0m
+[0;32mI (2077237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2077477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2077477) wifi station: Response from the server: [0m
+[0;32mI (2082487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2082727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2082727) wifi station: Response from the server: [0m
+[0;32mI (2087737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2087977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2087977) wifi station: Response from the server: [0m
+[0;32mI (2092987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2093227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2093227) wifi station: Response from the server: [0m
+[0;32mI (2098237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2098477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2098477) wifi station: Response from the server: [0m
+[0;32mI (2103487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2103727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2103727) wifi station: Response from the server: [0m
+[0;32mI (2108737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2108977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2108977) wifi station: Response from the server: [0m
+[0;32mI (2113987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2114227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2114227) wifi station: Response from the server: [0m
+[0;32mI (2119237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2119477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2119477) wifi station: Response from the server: [0m
+[0;32mI (2124487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2124727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2124727) wifi station: Response from the server: [0m
+[0;32mI (2129737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2129977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2129977) wifi station: Response from the server: [0m
+[0;32mI (2134987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2135227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2135227) wifi station: Response from the server: [0m
+[0;32mI (2140237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2140477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2140477) wifi station: Response from the server: [0m
+[0;32mI (2145487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2145727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2145727) wifi station: Response from the server: [0m
+[0;32mI (2150737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2150977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2150977) wifi station: Response from the server: [0m
+[0;32mI (2155987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2156227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2156227) wifi station: Response from the server: [0m
+[0;32mI (2161237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2161477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2161477) wifi station: Response from the server: [0m
+[0;32mI (2166487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2166727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2166727) wifi station: Response from the server: [0m
+[0;32mI (2171737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2171977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2171977) wifi station: Response from the server: [0m
+[0;32mI (2176987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2177227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2177227) wifi station: Response from the server: [0m
+[0;32mI (2182237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2182477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2182477) wifi station: Response from the server: [0m
+[0;32mI (2187487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2187727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2187727) wifi station: Response from the server: [0m
+[0;32mI (2192737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2192977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2192987) wifi station: Response from the server: [0m
+[0;32mI (2197987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2198227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2198227) wifi station: Response from the server: [0m
+[0;32mI (2203237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2203477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2203477) wifi station: Response from the server: [0m
+[0;32mI (2208487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2208727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2208727) wifi station: Response from the server: [0m
+[0;32mI (2213737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2213977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2213977) wifi station: Response from the server: [0m
+[0;32mI (2218987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2219227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2219227) wifi station: Response from the server: [0m
+[0;32mI (2224237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2224477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2224477) wifi station: Response from the server: [0m
+[0;32mI (2229487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2229727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2229727) wifi station: Response from the server: [0m
+[0;32mI (2234737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2234977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2234977) wifi station: Response from the server: [0m
+[0;32mI (2239987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2240227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2240227) wifi station: Response from the server: [0m
+[0;32mI (2245237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2245477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2245477) wifi station: Response from the server: [0m
+[0;32mI (2250487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2250727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2250727) wifi station: Response from the server: [0m
+[0;32mI (2255737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2255977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2255977) wifi station: Response from the server: [0m
+[0;32mI (2260987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2261227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2261227) wifi station: Response from the server: [0m
+[0;32mI (2266237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2266477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2266477) wifi station: Response from the server: [0m
+[0;32mI (2271487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2271727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2271727) wifi station: Response from the server: [0m
+[0;32mI (2276737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2276977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2276977) wifi station: Response from the server: [0m
+[0;32mI (2281987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2282227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2282227) wifi station: Response from the server: [0m
+[0;32mI (2287237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2287477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2287477) wifi station: Response from the server: [0m
+[0;32mI (2292487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2292727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2292727) wifi station: Response from the server: [0m
+[0;32mI (2297737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2297997) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2297997) wifi station: Response from the server: [0m
+[0;32mI (2303007) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2303237) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2303237) wifi station: Response from the server: [0m
+[0;32mI (2308237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2308477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2308487) wifi station: Response from the server: [0m
+[0;32mI (2313487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2313727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2313727) wifi station: Response from the server: [0m
+[0;32mI (2318737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2318987) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2318987) wifi station: Response from the server: [0m
+[0;32mI (2323987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2324227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2324227) wifi station: Response from the server: [0m
+[0;32mI (2329237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2329477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2329477) wifi station: Response from the server: [0m
+[0;32mI (2334487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2334727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2334727) wifi station: Response from the server: [0m
+[0;32mI (2339737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2339977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2339977) wifi station: Response from the server: [0m
+[0;32mI (2344987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2345227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2345227) wifi station: Response from the server: [0m
+[0;32mI (2350237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2350487) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2350487) wifi station: Response from the server: [0m
+[0;32mI (2355487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2355727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2355727) wifi station: Response from the server: [0m
+[0;32mI (2360737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2360977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2360977) wifi station: Response from the server: [0m
+[0;32mI (2365987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2366227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2366227) wifi station: Response from the server: [0m
+[0;32mI (2371237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2371477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2371477) wifi station: Response from the server: [0m
+[0;32mI (2376487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2376727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2376727) wifi station: Response from the server: [0m
+[0;32mI (2381737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2381977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2381977) wifi station: Response from the server: [0m
+[0;32mI (2386987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2387227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2387227) wifi station: Response from the server: [0m
+[0;32mI (2392237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2392477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2392477) wifi station: Response from the server: [0m
+[0;32mI (2397487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2397727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2397727) wifi station: Response from the server: [0m
+[0;32mI (2402737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2402977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2402987) wifi station: Response from the server: [0m
+[0;32mI (2407987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2408227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2408227) wifi station: Response from the server: [0m
+[0;32mI (2413237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2413477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2413477) wifi station: Response from the server: [0m
+[0;32mI (2418487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2418727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2418727) wifi station: Response from the server: [0m
+[0;32mI (2423737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2423977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2423977) wifi station: Response from the server: [0m
+[0;32mI (2428987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2429227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2429227) wifi station: Response from the server: [0m
+[0;32mI (2434237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2434477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2434477) wifi station: Response from the server: [0m
+[0;32mI (2439487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2439727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2439727) wifi station: Response from the server: [0m
+[0;32mI (2444737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2444977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2444977) wifi station: Response from the server: [0m
+[0;32mI (2449987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2450227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2450227) wifi station: Response from the server: [0m
+[0;32mI (2455237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2455477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2455477) wifi station: Response from the server: [0m
+[0;32mI (2460487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2460727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2460727) wifi station: Response from the server: [0m
+[0;32mI (2465737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2465977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2465977) wifi station: Response from the server: [0m
+[0;32mI (2470987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2471227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2471227) wifi station: Response from the server: [0m
+[0;32mI (2476237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2476477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2476477) wifi station: Response from the server: [0m
+[0;32mI (2481487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2481727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2481727) wifi station: Response from the server: [0m
+[0;32mI (2486737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2486977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2486977) wifi station: Response from the server: [0m
+[0;32mI (2491987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2492227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2492227) wifi station: Response from the server: [0m
+[0;32mI (2497237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2497477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2497477) wifi station: Response from the server: [0m
+[0;32mI (2502487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2502727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2502727) wifi station: Response from the server: [0m
+[0;32mI (2507737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2507977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2507977) wifi station: Response from the server: [0m
+[0;32mI (2512987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2513227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2513237) wifi station: Response from the server: [0m
+[0;32mI (2518237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2518477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2518477) wifi station: Response from the server: [0m
+[0;32mI (2523487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2523727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2523727) wifi station: Response from the server: [0m
+[0;32mI (2528737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2528977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2528977) wifi station: Response from the server: [0m
+[0;32mI (2533987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2534227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2534227) wifi station: Response from the server: [0m
+[0;32mI (2539237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2539477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2539477) wifi station: Response from the server: [0m
+[0;32mI (2544487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2544727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2544727) wifi station: Response from the server: [0m
+[0;32mI (2549737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2549977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2549977) wifi station: Response from the server: [0m
+[0;32mI (2554987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2555227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2555227) wifi station: Response from the server: [0m
+[0;32mI (2560237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2560477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2560477) wifi station: Response from the server: [0m
+[0;32mI (2565487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2565727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2565727) wifi station: Response from the server: [0m
+[0;32mI (2570737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2570977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2570977) wifi station: Response from the server: [0m
+[0;32mI (2575987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2576227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2576227) wifi station: Response from the server: [0m
+[0;32mI (2581237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2581477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2581477) wifi station: Response from the server: [0m
+[0;32mI (2586487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2586727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2586727) wifi station: Response from the server: [0m
+[0;32mI (2591737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2591977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2591977) wifi station: Response from the server: [0m
+[0;32mI (2596987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2597227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2597227) wifi station: Response from the server: [0m
+[0;32mI (2602237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2602477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2602477) wifi station: Response from the server: [0m
+[0;32mI (2607487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2607727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2607727) wifi station: Response from the server: [0m
+[0;32mI (2612737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2612977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2612977) wifi station: Response from the server: [0m
+[0;32mI (2617987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2618227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2618227) wifi station: Response from the server: [0m
+[0;32mI (2623237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2623477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2623477) wifi station: Response from the server: [0m
+[0;32mI (2628487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2628727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2628727) wifi station: Response from the server: [0m
+[0;32mI (2633737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2633977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2633977) wifi station: Response from the server: [0m
+[0;32mI (2638987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2639227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2639227) wifi station: Response from the server: [0m
+[0;32mI (2644237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2644477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2644477) wifi station: Response from the server: [0m
+[0;32mI (2649487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2649727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2649727) wifi station: Response from the server: [0m
+[0;32mI (2654737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2654977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2654977) wifi station: Response from the server: [0m
+[0;32mI (2659987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2660237) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2660247) wifi station: Response from the server: [0m
+[0;32mI (2665247) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2665477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2665477) wifi station: Response from the server: [0m
+[0;32mI (2670487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2670727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2670727) wifi station: Response from the server: [0m
+[0;32mI (2675737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2675977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2675977) wifi station: Response from the server: [0m
+[0;32mI (2680987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2681227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2681227) wifi station: Response from the server: [0m
+[0;32mI (2686237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2686477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2686477) wifi station: Response from the server: [0m
+[0;32mI (2691487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2691727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2691727) wifi station: Response from the server: [0m
+[0;32mI (2696737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2696987) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2696987) wifi station: Response from the server: [0m
+[0;32mI (2701987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2702227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2702227) wifi station: Response from the server: [0m
+[0;32mI (2707237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2707477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2707477) wifi station: Response from the server: [0m
+[0;32mI (2712487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2712727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2712727) wifi station: Response from the server: [0m
+[0;32mI (2717737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2717977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2717977) wifi station: Response from the server: [0m
+[0;32mI (2722987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2723227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2723237) wifi station: Response from the server: [0m
+[0;32mI (2728237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2728477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2728477) wifi station: Response from the server: [0m
+[0;32mI (2733487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2733727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2733727) wifi station: Response from the server: [0m
+[0;32mI (2738737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2738977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2738977) wifi station: Response from the server: [0m
+[0;32mI (2743987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2744227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2744227) wifi station: Response from the server: [0m
+[0;32mI (2749237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2749477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2749477) wifi station: Response from the server: [0m
+[0;32mI (2754487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2754727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2754727) wifi station: Response from the server: [0m
+[0;32mI (2759737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2759977) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2759977) wifi station: Response from the server: [0m
+[0;32mI (2764987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2765227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2765227) wifi station: Response from the server: [0m
+[0;32mI (2770237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2770477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2770477) wifi station: Response from the server: [0m
+[0;32mI (2775487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2775747) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2775747) wifi station: Response from the server: [0m
+[0;32mI (2780757) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2780987) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2780987) wifi station: Response from the server: [0m
+[0;32mI (2785987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2786227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2786227) wifi station: Response from the server: [0m
+[0;32mI (2791237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2791477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2791477) wifi station: Response from the server: [0m
+[0;32mI (2796487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2796727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2796727) wifi station: Response from the server: [0m
+[0;32mI (2801737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2801977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2801977) wifi station: Response from the server: [0m
+[0;32mI (2806987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2807227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2807227) wifi station: Response from the server: [0m
+[0;32mI (2812237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2812477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2812477) wifi station: Response from the server: [0m
+[0;32mI (2817487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2817727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2817727) wifi station: Response from the server: [0m
+[0;32mI (2822737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2822977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2822977) wifi station: Response from the server: [0m
+[0;32mI (2827987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2828227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2828227) wifi station: Response from the server: [0m
+[0;32mI (2833237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2833477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2833477) wifi station: Response from the server: [0m
+[0;32mI (2838487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2838727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2838727) wifi station: Response from the server: [0m
+[0;32mI (2843737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2843977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2843977) wifi station: Response from the server: [0m
+[0;32mI (2848987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2849227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2849227) wifi station: Response from the server: [0m
+[0;32mI (2854237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2854477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2854477) wifi station: Response from the server: [0m
+[0;32mI (2859487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2859727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2859727) wifi station: Response from the server: [0m
+[0;32mI (2864737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2864977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2864977) wifi station: Response from the server: [0m
+[0;32mI (2869987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2870227) wifi station: HTTP Status = 200, content_length = 70[0m
+[0;32mI (2870227) wifi station: Response from the server: [0m
+[0;32mI (2875237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2875477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2875477) wifi station: Response from the server: [0m
+[0;32mI (2880487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2880737) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2880737) wifi station: Response from the server: [0m
+[0;32mI (2885737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2885977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2885977) wifi station: Response from the server: [0m
+[0;32mI (2890987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2891227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2891227) wifi station: Response from the server: [0m
+[0;32mI (2896237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2896477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2896477) wifi station: Response from the server: [0m
+[0;32mI (2901487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2901727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2901727) wifi station: Response from the server: [0m
+[0;32mI (2906737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2906977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2906977) wifi station: Response from the server: [0m
+[0;32mI (2911987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2912227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2912227) wifi station: Response from the server: [0m
+[0;32mI (2917237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2917477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2917477) wifi station: Response from the server: [0m
+[0;32mI (2922487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2922727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2922727) wifi station: Response from the server: [0m
+[0;32mI (2927737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2927977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2927977) wifi station: Response from the server: [0m
+[0;32mI (2932987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2933227) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (2933227) wifi station: Response from the server: [0m
+[0;32mI (2938237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2938477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2938477) wifi station: Response from the server: [0m
+[0;32mI (2943487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2943727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2943727) wifi station: Response from the server: [0m
+[0;32mI (2948737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2948977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2948977) wifi station: Response from the server: [0m
+[0;32mI (2953987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2954227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2954227) wifi station: Response from the server: [0m
+[0;32mI (2959237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2959477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2959477) wifi station: Response from the server: [0m
+[0;32mI (2964487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2964727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2964727) wifi station: Response from the server: [0m
+[0;32mI (2969737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2969977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2969977) wifi station: Response from the server: [0m
+[0;32mI (2974987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2975227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (2975227) wifi station: Response from the server: [0m
+[0;32mI (2980237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2980477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2980477) wifi station: Response from the server: [0m
+[0;32mI (2985487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2985727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (2985727) wifi station: Response from the server: [0m
+[0;32mI (2990737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2990977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2990977) wifi station: Response from the server: [0m
+[0;32mI (2995987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (2996227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (2996227) wifi station: Response from the server: [0m
+[0;32mI (3001237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3001477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3001477) wifi station: Response from the server: [0m
+[0;32mI (3006487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3006727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3006727) wifi station: Response from the server: [0m
+[0;32mI (3011737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3011977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3011977) wifi station: Response from the server: [0m
+[0;32mI (3016987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3017227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3017227) wifi station: Response from the server: [0m
+[0;32mI (3022237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3022477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3022477) wifi station: Response from the server: [0m
+[0;32mI (3027487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3027727) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (3027727) wifi station: Response from the server: [0m
+[0;32mI (3032737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3032977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3032977) wifi station: Response from the server: [0m
+[0;32mI (3037987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3038227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3038227) wifi station: Response from the server: [0m
+[0;32mI (3043237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3043477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3043477) wifi station: Response from the server: [0m
+[0;32mI (3048487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3048727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3048727) wifi station: Response from the server: [0m
+[0;32mI (3053737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3053977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3053977) wifi station: Response from the server: [0m
+[0;32mI (3058987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3059227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3059227) wifi station: Response from the server: [0m
+[0;32mI (3064237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3064477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3064477) wifi station: Response from the server: [0m
+[0;32mI (3069487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3069727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3069727) wifi station: Response from the server: [0m
+[0;32mI (3074737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3074977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3074977) wifi station: Response from the server: [0m
+[0;32mI (3079987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3080237) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3080237) wifi station: Response from the server: [0m
+[0;32mI (3085247) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3085507) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3085507) wifi station: Response from the server: [0m
+[0;32mI (3090507) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3090727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3090727) wifi station: Response from the server: [0m
+[0;32mI (3095737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3095977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3095977) wifi station: Response from the server: [0m
+[0;32mI (3100987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3101227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3101227) wifi station: Response from the server: [0m
+[0;32mI (3106237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3106487) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3106487) wifi station: Response from the server: [0m
+[0;32mI (3111487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3111727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3111727) wifi station: Response from the server: [0m
+[0;32mI (3116737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3116977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3116977) wifi station: Response from the server: [0m
+[0;32mI (3121987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3122227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3122227) wifi station: Response from the server: [0m
+[0;32mI (3127237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3127477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3127477) wifi station: Response from the server: [0m
+[0;32mI (3132487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3132727) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3132727) wifi station: Response from the server: [0m
+[0;32mI (3137737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3137977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3137977) wifi station: Response from the server: [0m
+[0;32mI (3142987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3143227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3143227) wifi station: Response from the server: [0m
+[0;32mI (3148237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3148487) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3148487) wifi station: Response from the server: [0m
+[0;32mI (3153487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3153727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3153727) wifi station: Response from the server: [0m
+[0;32mI (3158737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3158977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3158977) wifi station: Response from the server: [0m
+[0;32mI (3163987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3164227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3164227) wifi station: Response from the server: [0m
+[0;32mI (3169237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3169477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3169477) wifi station: Response from the server: [0m
+[0;32mI (3174487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3174727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3174727) wifi station: Response from the server: [0m
+[0;32mI (3179737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3179977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3179977) wifi station: Response from the server: [0m
+[0;32mI (3184987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3185227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3185227) wifi station: Response from the server: [0m
+[0;32mI (3190237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3190477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3190477) wifi station: Response from the server: [0m
+[0;32mI (3195487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3195727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3195727) wifi station: Response from the server: [0m
+[0;32mI (3200737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3200977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3200977) wifi station: Response from the server: [0m
+[0;32mI (3205987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3206227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3206227) wifi station: Response from the server: [0m
+[0;32mI (3211237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3211477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3211477) wifi station: Response from the server: [0m
+[0;32mI (3216487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3216727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3216727) wifi station: Response from the server: [0m
+[0;32mI (3221737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3221977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3221977) wifi station: Response from the server: [0m
+[0;32mI (3226987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3227227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3227227) wifi station: Response from the server: [0m
+[0;32mI (3232237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3232477) wifi station: HTTP Status = 200, content_length = 70[0m
+[0;32mI (3232477) wifi station: Response from the server: [0m
+[0;32mI (3237487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3237727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3237727) wifi station: Response from the server: [0m
+[0;32mI (3242737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3242977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3242977) wifi station: Response from the server: [0m
+[0;32mI (3247987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3248227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3248227) wifi station: Response from the server: [0m
+[0;32mI (3253237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3253477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3253477) wifi station: Response from the server: [0m
+[0;32mI (3258487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3258727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3258727) wifi station: Response from the server: [0m
+[0;32mI (3263737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3263977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3263977) wifi station: Response from the server: [0m
+[0;32mI (3268987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3269227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3269227) wifi station: Response from the server: [0m
+[0;32mI (3274237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3274477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3274477) wifi station: Response from the server: [0m
+[0;32mI (3279487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3279727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3279727) wifi station: Response from the server: [0m
+[0;32mI (3284737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3284977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3284977) wifi station: Response from the server: [0m
+[0;32mI (3289987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3290227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3290227) wifi station: Response from the server: [0m
+[0;32mI (3295237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3295477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3295477) wifi station: Response from the server: [0m
+[0;32mI (3300487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3300727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3300727) wifi station: Response from the server: [0m
+[0;32mI (3305737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3305977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3305977) wifi station: Response from the server: [0m
+[0;32mI (3310987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3311227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3311227) wifi station: Response from the server: [0m
+[0;32mI (3316237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3316477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3316477) wifi station: Response from the server: [0m
+[0;32mI (3321487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3321727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3321727) wifi station: Response from the server: [0m
+[0;32mI (3326737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3326977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3326977) wifi station: Response from the server: [0m
+[0;32mI (3331987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3332227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3332237) wifi station: Response from the server: [0m
+[0;32mI (3337237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3337477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3337477) wifi station: Response from the server: [0m
+[0;32mI (3342487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3342727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3342727) wifi station: Response from the server: [0m
+[0;32mI (3347737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3347977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3347977) wifi station: Response from the server: [0m
+[0;32mI (3352987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3353227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3353227) wifi station: Response from the server: [0m
+[0;32mI (3358237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3358477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3358477) wifi station: Response from the server: [0m
+[0;32mI (3363487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3363727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3363727) wifi station: Response from the server: [0m
+[0;32mI (3368737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3368977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3368977) wifi station: Response from the server: [0m
+[0;32mI (3373987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3374227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3374227) wifi station: Response from the server: [0m
+[0;32mI (3379237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3379517) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3379517) wifi station: Response from the server: [0m
+[0;32mI (3384517) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3384737) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (3384737) wifi station: Response from the server: [0m
+[0;32mI (3389737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3389977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3389977) wifi station: Response from the server: [0m
+[0;32mI (3394987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3395227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3395227) wifi station: Response from the server: [0m
+[0;32mI (3400237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3400477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3400477) wifi station: Response from the server: [0m
+[0;32mI (3405487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3405727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3405727) wifi station: Response from the server: [0m
+[0;32mI (3410737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3410977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3410977) wifi station: Response from the server: [0m
+[0;32mI (3415987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3416227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3416227) wifi station: Response from the server: [0m
+[0;32mI (3421237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3421477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3421477) wifi station: Response from the server: [0m
+[0;32mI (3426487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3426737) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3426737) wifi station: Response from the server: [0m
+[0;32mI (3431737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3431977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3431987) wifi station: Response from the server: [0m
+[0;32mI (3436987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3437227) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3437227) wifi station: Response from the server: [0m
+[0;32mI (3442237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3442477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3442477) wifi station: Response from the server: [0m
+[0;32mI (3447487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3447737) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3447737) wifi station: Response from the server: [0m
+[0;32mI (3452737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3452977) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3452977) wifi station: Response from the server: [0m
+[0;32mI (3457987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3458227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3458227) wifi station: Response from the server: [0m
+[0;32mI (3463237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3463477) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3463477) wifi station: Response from the server: [0m
+[0;32mI (3468487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3468727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3468727) wifi station: Response from the server: [0m
+[0;32mI (3473737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3473977) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3473977) wifi station: Response from the server: [0m
+[0;32mI (3478987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3479227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3479227) wifi station: Response from the server: [0m
+[0;32mI (3484237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3484477) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3484477) wifi station: Response from the server: [0m
+[0;32mI (3489487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3489727) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3489727) wifi station: Response from the server: [0m
+[0;32mI (3494737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3494977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3494977) wifi station: Response from the server: [0m
+[0;32mI (3499987) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3500227) wifi station: HTTP Status = 200, content_length = 74[0m
+[0;32mI (3500227) wifi station: Response from the server: [0m
+[0;32mI (3505237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3505477) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3505477) wifi station: Response from the server: [0m
+[0;32mI (3510487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3510737) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3510737) wifi station: Response from the server: [0m
+[0;32mI (3515737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3515987) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (3515987) wifi station: Response from the server: [0m
+[0;32mI (3520997) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3521227) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3521227) wifi station: Response from the server: [0m
+[0;32mI (3526237) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3526477) wifi station: HTTP Status = 200, content_length = 71[0m
+[0;32mI (3526477) wifi station: Response from the server: [0m
+[0;32mI (3531487) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3531727) wifi station: HTTP Status = 200, content_length = 73[0m
+[0;32mI (3531727) wifi station: Response from the server: [0m
+[0;32mI (3536737) wifi station: Requesting sensor data from ESP32 server...[0m
+[0;32mI (3536977) wifi station: HTTP Status = 200, content_length = 72[0m
+[0;32mI (3536977) wifi station: Response from the server: [0m

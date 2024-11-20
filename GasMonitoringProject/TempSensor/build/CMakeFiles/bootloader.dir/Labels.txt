@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/joaquinsalas/esp/TempSensor/build/CMakeFiles/bootloader
+/Users/joaquinsalas/esp/TempSensor/build/CMakeFiles/bootloader.rule
+/Users/joaquinsalas/esp/TempSensor/build/CMakeFiles/bootloader-complete.rule
+/Users/joaquinsalas/esp/TempSensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/joaquinsalas/esp/TempSensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/joaquinsalas/esp/TempSensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/joaquinsalas/esp/TempSensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/joaquinsalas/esp/TempSensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/joaquinsalas/esp/TempSensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/joaquinsalas/esp/TempSensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

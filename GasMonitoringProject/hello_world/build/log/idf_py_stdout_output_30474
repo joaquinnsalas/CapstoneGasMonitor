@@ -1,0 +1,102 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Oct  8 2024 19:40:23[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ae7ch ( 44668) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=0001aea4 vaddr=3ffb0000 size=02274h (  8820) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001d120 vaddr=40080000 size=02ef8h ( 12024) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=16c68h ( 93288) map[0m
+[0;32mI (166) esp_image: segment 4: paddr=00036c90 vaddr=40082ef8 size=0a618h ( 42520) load[0m
+[0;32mI (189) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (189) boot: Disabling RNG early entropy source...[0m
+[0;32mI (201) cpu_start: Multicore app[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (213) cpu_start: Project name:     hello_world[0m
+[0;32mI (218) cpu_start: App version:      1[0m
+[0;32mI (223) cpu_start: Compile time:     Oct  8 2024 19:40:20[0m
+[0;32mI (229) cpu_start: ELF file SHA256:  77b9ea10d...[0m
+[0;32mI (234) cpu_start: ESP-IDF:          v5.2.3[0m
+[0;32mI (239) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (244) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (249) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (254) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (261) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (267) heap_init: At 3FFB2B58 len 0002D4A8 (181 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (279) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 4008D510 len 00012AF0 (74 KiB): IRAM[0m
+[0;32mI (293) spi_flash: detected chip: generic[0m
+[0;32mI (296) spi_flash: flash io: dio[0m
+[0;33mW (300) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (314) main_task: Started on CPU0[0m
+[0;32mI (324) main_task: Calling app_main()[0m
+[0;32mI (324) gpio: GPIO[5]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (324) gpio: GPIO[4]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (334) main_task: Returned from app_main()[0m
+ing now![0m was called ffb6bf0 0x40fb6c10 0x400b6c30 0x4008ca0
+
+
+
+SHA256: 77b9:22:57
+
+rPU_RESET),bI_FAST_FLASSPIWP:0xee
+,, clock div:2
+load:0x3fff0030,leno 8 tail 4 0640
+[0;32mI (30) boot: ESP-IDF v5.2.3 2nd stage bootloader[0m
+[0;32mI (31) bo time Oct  8 2024 19:40;P0;32mI (48) SPI Flash Size : 2MB[0 Enabling R0m
+[0;32m t3
+[0;32mI (ot:  2 factory          factory app      00 00 00010000 00100000[0mm
+[0;32mIage: segment 0: paddr=0r=3f400020 ( 44668) ma[0;32mI (119) esp_imagee=02274h (  0m
+[0;32m=0001d120 v[0;32mI (ge: segment0036c90 vaddr=40082ef8 size=0a618h ( 42520) load[0m
+0[0;322024 I (249) cpu FFB2B58 len81 KiB): DRAlen 00003AE09) heap_ini[0m
+[0;32mI (286) heap_init: At 4008D510 lentected chip: generic[0m
+[0;32mI (296) spi_flash: flashry image hebinary imag (314) main_ed on CPU0[0m
+[0;32mgpio: GPIO[down: 0| Intr:0 [0m
+sd0 0x4008665d:0x3ffb6c10eSET),boot:013 (SPI_FAST)
+configsi:78000,len:150 (31) bootm (35) boot: ceed      :0 boot.esp3:: 2MB[0m
+[ls o[0m
+[0;3232mI (166) 
+[from partiti:[0;32mI (201 Multicore app[0m
+r)Istart: Proj77b9ea10d...[.)0 len 00001958 len 0002DB 3FFE4350 le): IRAM[0md chip: generic[0m
+[;33mW (300) OpenDrain: 0| OpenDrain24) FreeRTOm
+
+abort(acktrace: 008be55:0x3f8709f:0x3ff
+
+ELF file
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),0I (30) boot5.2.3 2nd st8cader[0m
+[revision: v1.0[0m
+[0 2[t00006000[0(dt (96) esp_image: segmen: paddr=0001aea4 vaddr=ze=02274h ( ( ( 42520) load[0m
+ boot: Loadb source...I (201) cpu2mI (210) cro cpu start user code[0m
+[0;32m_start: cpu freq: 160000t[0;32mI (21lo_world[0tELF file SHa10d...[0m
+[0;32mI (5.2.3[0m
+rev:     v0[0m
+[0;32oF181 KiB): DR;32mI (273) 0[0m
+[0;32mI (286) heap_init: At nspi_flash: dp: genericlash: Detected size(409ary image h. Using theI (314) main_task: Started on CPU0[0m
+[0;32mI (324) mai lup: 1| Pultr:0 [0m
+ua

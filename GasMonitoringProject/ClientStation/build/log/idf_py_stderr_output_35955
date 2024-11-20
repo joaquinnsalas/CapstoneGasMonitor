@@ -1,0 +1,135 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbserial-0001 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081642: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x400860b5: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b985: __assert_func at /Users/joaquinsalas/esp/esp-idf/components/newlib/assert.c:81
+0x400da96f: tcpip_send_msg_wait_sem at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:449 (discriminator 1)
+0x400e5cf5: netconn_apimsg at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:134
+0x400e5d85: netconn_new_with_proto_and_callback at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:164
+0x400da7f9: lwip_socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d5e3b: socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) tcp_client_task at /Users/joaquinsalas/esp/ClientStation/main/station_example_main.c:32
+0x40086a45: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081642: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x400860b5: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b985: __assert_func at /Users/joaquinsalas/esp/esp-idf/components/newlib/assert.c:81
+0x400da96f: tcpip_send_msg_wait_sem at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:449 (discriminator 1)
+0x400e5cf5: netconn_apimsg at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:134
+0x400e5d85: netconn_new_with_proto_and_callback at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:164
+0x400da7f9: lwip_socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d5e3b: socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) tcp_client_task at /Users/joaquinsalas/esp/ClientStation/main/station_example_main.c:32
+0x40086a45: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081642: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x400860b5: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b985: __assert_func at /Users/joaquinsalas/esp/esp-idf/components/newlib/assert.c:81
+0x400da96f: tcpip_send_msg_wait_sem at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:449 (discriminator 1)
+0x400e5cf5: netconn_apimsg at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:134
+0x400e5d85: netconn_new_with_proto_and_callback at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:164
+0x400da7f9: lwip_socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d5e3b: socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) tcp_client_task at /Users/joaquinsalas/esp/ClientStation/main/station_example_main.c:32
+0x40086a45: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081642: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x400860b5: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b985: __assert_func at /Users/joaquinsalas/esp/esp-idf/components/newlib/assert.c:81
+0x400da96f: tcpip_send_msg_wait_sem at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:449 (discriminator 1)
+0x400e5cf5: netconn_apimsg at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:134
+0x400e5d85: netconn_new_with_proto_and_callback at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:164
+0x400da7f9: lwip_socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d5e3b: socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) tcp_client_task at /Users/joaquinsalas/esp/ClientStation/main/station_example_main.c:32
+0x40086a45: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081642: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x400860b5: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b985: __assert_func at /Users/joaquinsalas/esp/esp-idf/components/newlib/assert.c:81
+0x400da96f: tcpip_send_msg_wait_sem at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:449 (discriminator 1)
+0x400e5cf5: netconn_apimsg at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:134
+0x400e5d85: netconn_new_with_proto_and_callback at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:164
+0x400da7f9: lwip_socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d5e3b: socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) tcp_client_task at /Users/joaquinsalas/esp/ClientStation/main/station_example_main.c:32
+0x40086a45: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081642: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x400860b5: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b985: __assert_func at /Users/joaquinsalas/esp/esp-idf/components/newlib/assert.c:81
+0x400da96f: tcpip_send_msg_wait_sem at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:449 (discriminator 1)
+0x400e5cf5: netconn_apimsg at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:134
+0x400e5d85: netconn_new_with_proto_and_callback at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:164
+0x400da7f9: lwip_socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d5e3b: socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) tcp_client_task at /Users/joaquinsalas/esp/ClientStation/main/station_example_main.c:32
+0x40086a45: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081642: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x400860b5: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b985: __assert_func at /Users/joaquinsalas/esp/esp-idf/components/newlib/assert.c:81
+0x400da96f: tcpip_send_msg_wait_sem at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:449 (discriminator 1)
+0x400e5cf5: netconn_apimsg at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:134
+0x400e5d85: netconn_new_with_proto_and_callback at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:164
+0x400da7f9: lwip_socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d5e3b: socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) tcp_client_task at /Users/joaquinsalas/esp/ClientStation/main/station_example_main.c:32
+0x40086a45: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081642: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x400860b5: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b985: __assert_func at /Users/joaquinsalas/esp/esp-idf/components/newlib/assert.c:81
+0x400da96f: tcpip_send_msg_wait_sem at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:449 (discriminator 1)
+0x400e5cf5: netconn_apimsg at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:134
+0x400e5d85: netconn_new_with_proto_and_callback at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:164
+0x400da7f9: lwip_socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d5e3b: socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) tcp_client_task at /Users/joaquinsalas/esp/ClientStation/main/station_example_main.c:32
+0x40086a45: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081642: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x400860b5: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b985: __assert_func at /Users/joaquinsalas/esp/esp-idf/components/newlib/assert.c:81
+0x400da96f: tcpip_send_msg_wait_sem at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:449 (discriminator 1)
+0x400e5cf5: netconn_apimsg at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:134
+0x400e5d85: netconn_new_with_proto_and_callback at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:164
+0x400da7f9: lwip_socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d5e3b: socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) tcp_client_task at /Users/joaquinsalas/esp/ClientStation/main/station_example_main.c:32
+0x40086a45: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40081642: panic_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/panic.c:466
+0x400860b5: esp_system_abort at /Users/joaquinsalas/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b985: __assert_func at /Users/joaquinsalas/esp/esp-idf/components/newlib/assert.c:81
+0x400da96f: tcpip_send_msg_wait_sem at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:449 (discriminator 1)
+0x400e5cf5: netconn_apimsg at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:134
+0x400e5d85: netconn_new_with_proto_and_callback at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c:164
+0x400da7f9: lwip_socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d5e3b: socket at /Users/joaquinsalas/esp/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) tcp_client_task at /Users/joaquinsalas/esp/ClientStation/main/station_example_main.c:32
+0x40086a45: vPortTaskWrapper at /Users/joaquinsalas/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m
